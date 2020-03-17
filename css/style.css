@@ -4,7 +4,9 @@ nav.navbar.navbar-expand-lg.nav-principal {
 }
 
 .navbar-nav.barra-navegacao {
-  padding-left: 250px;
+  
+  padding-left: 3rem;
+  padding-right: 1rem;
 }
 
 .nav-link {
@@ -14,8 +16,8 @@ nav.navbar.navbar-expand-lg.nav-principal {
 }
 
 li.nav-item.item-navegacao {
-  margin-left: 80px;
   font-size: 20px;
+  margin-left: 60px;
 }
 .nav-link:hover {
   color: #fff;
@@ -29,7 +31,7 @@ img {
 
 .logo {
   color: aliceblue;
-  margin-left: 60px;
+  margin-left: 45px;
 }
 .logo img {
   object-fit: contain;
@@ -181,12 +183,27 @@ button.btn.btn-contato {
   margin: 60px 60px 9px 72px;
 }
 
+.form-row {
+  border: solid;
+  padding: 26px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.5);
+  background:#3965ad; ;
+  
+}
 
-@media (max-width:1010px){
-  .card-grupo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
- 
+button.btn.btn-formulario {
+  border: solid;
+  margin-top: 14px;
+  color: #fff;
+  border-color: black;
+  
+}
+
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: 20px;
 }
