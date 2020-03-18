@@ -39,12 +39,6 @@
                         aspernatur id
                         excepturi hic.</p>
 
-                    <!-- Content -->
-                    <div class="texto-numero">
-                        <h3> 11 97797-3346</h3>
-                        <p>De segunda à sexta-feira</p>
-                        <h5>Das 9h às 18h </h5>
-                    </div>
                 </div>
                 <!-- Grid column -->
 
