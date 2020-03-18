@@ -121,52 +121,52 @@
             <div class="row">
                 <div class="col-sm-6">
 
-                    <form>
+                    <form id="formContato">
+
                         <div class="row">
-                            <div class="col-sm-4">
+                            <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label> <strong> Nome</strong></label>
-                                    <input type="text" class="form-control" placeholder="">
+                                    <div class="input-container">
+                                        <input type="text" class="input" name="name" id="name" pattern=".+" required>
+                                        <label for="name" class="label"> Nome</label>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label> <strong> E-mail</strong></label>
-                                    <input type="text" class="form-control" placeholder="">
-                                </div>
-                            </div>
-                            <div class="col-sm-4">
-                                <div class="form-group">
-                                    <label><strong> Telefone</strong></label>
-                                    <input type="text" class="form-control" placeholder="">
+                                    <div class="input-container">
+                                        <input type="email" class="input" name="email" id="email" pattern=".+" required>
+                                        <label for="email" class="label"> E-mail</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label> <strong>Como nos conheceu</strong> </label>
-                                    <input type="text" class="form-control" placeholder="">
+                                    <div class="input-container">
+                                        <input type="text" class="input" name="phone" id="phone" pattern=".+" required>
+                                        <label for="phone" class="label"> Telefone</label>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <label><strong>O que está procurando</strong></label>
-                                    <select class="form-control">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                    </select>
+                                    <div class="input-container">
+                                        <input type="text" class="input" name="about" id="about" pattern=".+" required>
+                                        <label for="about" class="label"> Assunto</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <label><strong> Como nos conheceu</strong></label>
-                                    <textarea class="form-control" rows="4"></textarea>
+                                    <div class="textarea-container">
+                                        <label for=""> Como nos conheceu</label>
+                                        <textarea rows="5"></textarea>
+                                    </div>
 
                                 </div>
                             </div>
