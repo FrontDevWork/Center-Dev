@@ -1,34 +1,31 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-}
-/* barra de menu*/
-* {
-  box-sizing: border-box;
-  transition: all 0.3s ease;
-}
-
-html,
-body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
-img {
+/* barra de menu*/
+/* * {
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+} */
+
+.img-logo {
   width: 60px;
   height: 60px;
-  padding: 4px;
+  padding: 5px;
   margin-left: 30px;
 }
 
 ul {
   list-style: none;
 }
+
 .menu-nav {
   width: 100%;
   max-width: 1590px;
-  
+
 }
 
 header {
@@ -45,6 +42,7 @@ header {
   justify-content: space-between;
   background: #5496ff;
 }
+
 .open-nav {
   display: none;
 }
@@ -53,6 +51,7 @@ nav {
   width: 100%;
   max-width: 700px;
 }
+
 .nome-logo {
   color: #ffffff;
 }
@@ -70,10 +69,7 @@ nav .list-menu a {
   color: #ffffff;
   text-transform: capitalize;
   padding: 5px;
-  
-  
 
-  
 }
 
 nav .list-menu a:hover {
@@ -104,10 +100,16 @@ nav .list-menu a:hover::before {
   background-image: url(../img/banner.png);
   background-position: center center;
   background-size: cover;
-  
+
   margin-bottom: 130px;
 }
-.principal {width: 100%; float: left; text-align: center; padding: 3% 4%;  no-repeat fixed;}
+
+.principal {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 3% 4%;
+}
 
 
 .buttons {
@@ -117,13 +119,24 @@ nav .list-menu a:hover::before {
   margin-top: 40px;
 }
 
-.buttons i {float: right;}
+.buttons i {
+  float: right;
+}
 
-.btn-cadastrar {width: 150px; background-color: #5496FF; transition: all 0.2s;
+.btn-cadastrar {
+  width: 150px;
+  background-color: #5496FF;
+  transition: all 0.2s;
 
   animation-name: btn-subir;
   animation-duration: 0.9s;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); font-size: 1.5em; text-align: center; cursor: pointer; border-radius: 10px; color: #fff;}
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+}
 
 @keyframes btn-subir {
   0% {
@@ -174,8 +187,8 @@ nav .list-menu a:hover::before {
 
 .card-grupo {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .card-servico {
@@ -192,15 +205,13 @@ nav .list-menu a:hover::before {
 }
 
 .card-servico div {
-  display: flex;
-  justify-content: center;
-}
-
-.card-servico .card-img {
-  padding: 40px 0;
+  text-align: center;
 }
 
 .card-img img {
+  padding: 40px 0;
+  width: 70px;
+  height: auto;
   object-fit: contain;
   object-position: center;
 }
@@ -214,6 +225,7 @@ nav .list-menu a:hover::before {
   background-position: center center;
   background-size: cover;
 }
+
 /* Contato */
 .contato {
   text-align: center;
@@ -270,11 +282,14 @@ button.btn.btn-contato {
   transition: .2s ease-in-out;
   box-sizing: border-box;
 }
-textarea, input {
+
+textarea,
+input {
   width: 100%;
   background: rgba(0, 0, 0, 0.2);
 
 }
+
 .textarea-container label {
   color: #fff;
   display: flex;
@@ -295,8 +310,9 @@ textarea, input {
 .input-container input:focus {
   border: 0;
   border-bottom: 2px solid #5496FF;
-  
+
 }
+
 .textarea-container textarea:focus {
   border: 1px solid #5496FF;
   box-shadow: 0 0 10px rgba(84, 150, 255, 0.7)
@@ -309,6 +325,7 @@ textarea, input {
   top: -35px;
   pointer-events: none;
 }
+
 button.btn-formulario {
   border: solid 2px;
   padding: 20px 100px;
@@ -332,6 +349,7 @@ button.btn-formulario:hover {
   width: 100%;
   height: auto;
 }
+
 .footer p {
   margin: 20px 0;
   color: #fff;
@@ -362,23 +380,27 @@ button.btn-formulario:hover {
     height: 100%;
     background: #5496ff;
   }
+
   nav .list-menu {
     flex-direction: column;
     margin: 0;
     padding: 60px 0 0 0;
   }
+
   nav .list-menu a {
     display: block;
     margin-bottom: 20px;
   }
+
   .open-nav {
     position: relative;
     display: block;
     width: 40px;
     height: 30px;
     z-index: 3;
-    
+
   }
+
   .open-nav .line {
     position: absolute;
     width: 100%;
@@ -395,20 +417,16 @@ button.btn-formulario:hover {
   .open-nav .line.line_2 {
     top: 50%;
     transform: translateY(-50%);
-    
+
   }
+
   .open-nav .line.line_3 {
     bottom: 0;
   }
 
-  button.open-nav .line.line_2 {   
-     
-      
-}
+  button.open-nav .line.line_2 {}
 
-  nav.menu.active  {
+  nav.menu.active {
     left: 0;
   }
 }
-
-

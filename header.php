@@ -17,21 +17,20 @@
 </head>
 
 <body>
-    
-   
-    <section class="menu-nav">
-         <div class="content-header">
-           
 
-            <img src="img/logo-branco.png" alt="">
+
+    <section class="menu-nav">
+        <div class="content-header">
+
+            <img src="img/logo-branco.png" alt="Logo" class="img-logo">
             <div class="nome-logo">
             <b>FrontDev</b>
             </div>
             <button class="open-nav">
 
-              <span class="line line_1"></span>
-              <span class="line line_2"></span>
-              <span class="line line_3"></span>
+            <span class="line line_1"></span>
+            <span class="line line_2"></span>
+            <span class="line line_3"></span>
 
             </button>
 
@@ -41,9 +40,9 @@
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Sobre nós</a></li>
                     <li><a href="#">Contato</a></li>
-                  
+
                 </ul>
-                
+
             </nav>
 
          </div>
