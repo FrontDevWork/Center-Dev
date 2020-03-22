@@ -24,14 +24,10 @@
 
             <img src="img/logo-branco.png" alt="Logo" class="img-logo">
             <div class="nome-logo">
-            <b>FrontDev</b>
+                <b>FrontDev</b>
             </div>
-            <button class="open-nav">
-
-            <span class="line line_1"></span>
-            <span class="line line_2"></span>
-            <span class="line line_3"></span>
-
+            <button class="open-nav btn">
+                <i class="fas fa-bars"></i>
             </button>
 
             <nav class="menu">
@@ -45,5 +41,5 @@
 
             </nav>
 
-         </div>
-         </section>
+        </div>
+    </section>
