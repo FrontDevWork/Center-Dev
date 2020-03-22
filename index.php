@@ -3,18 +3,22 @@
 <section class="banner">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12">
+            
                 <div class="principal">
                     <h1 class="titulo-banner">
                         Criação de sites e plantaformas e-commerce
                     </h1>
-                </div>
-                <div class="conhecer">
-                    <button class="btn btn-conhecer">Saiba mais</button>
-                </div>
+                
+                <div class="buttons">
+                <button class="btn btn-cadastrar  radius"> Cadastrar</button>
+                
+            </div>
+            </div>
             </div>
         </div>
     </div>
+
+    
 </section>
 
 <div class="container">
@@ -106,6 +110,7 @@
             </div>
         </div>
     </div>
+    
 
 
 </div>

@@ -17,34 +17,34 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg nav-principal">
-        <a class="navbar-brand" href="index.php">
-            <div class="logo">
-                <img src="img/logo-branco.png" alt="Logo">
-                <b>FrontDev</b>
+    
+   
+    <section class="menu-nav">
+         <div class="content-header">
+           
+
+            <img src="img/logo-branco.png" alt="">
+            <div class="nome-logo">
+            <b>FrontDev</b>
             </div>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">
-                <i class="fas fa-bars"></i>
-            </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav barra-navegacao">
-                <li class="nav-item item-navegacao">
-                    <a class="nav-link" href="index.php"> Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item item-navegacao">
-                    <a class="nav-link" href="empresa.php">Portfólio</a>
-                </li>
-                <li class="nav-item item-navegacao">
-                    <a class="nav-link" href="lista-imoveis.php">Sobre Nós</a>
-                </li>
-                <li class="nav-item item-navegacao">
-                    <a class="nav-link" href="">Contato</a>
-                </li>
-            </ul>
-            </a>
-        </div>
-    </nav>
+            <button class="open-nav">
+
+              <span class="line line_1"></span>
+              <span class="line line_2"></span>
+              <span class="line line_3"></span>
+
+            </button>
+
+            <nav class="menu">
+                <ul class="list-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                  
+                </ul>
+                
+            </nav>
+
+         </div>
+         </section>
