@@ -7,9 +7,9 @@ body {
 
 /* barra de menu*/
 .img-logo {
-  width: 60px;
-  height: 60px;
-  padding: 5px;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
   margin-left: 30px;
 }
 
@@ -33,7 +33,8 @@ header {
 .content-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  padding: 0 100px;
   background: #5496ff;
 }
 
@@ -47,7 +48,7 @@ nav {
 }
 
 .nome-logo {
-  color: #ffffff;
+  color: #fff;
 }
 
 nav .list-menu {
@@ -62,6 +63,7 @@ nav .list-menu a {
   text-decoration: none;
   color: #ffffff;
   text-transform: capitalize;
+  font-size: 20px;
   padding: 5px;
 }
 
@@ -105,30 +107,31 @@ nav .list-menu a:hover::before {
 }
 
 
-.buttons {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-}
 
-.buttons i {
-  float: right;
-}
-
-.btn-cadastrar {
-  width: 150px;
-  background-color: #5496FF;
-  transition: all 0.2s;
-
-  animation-name: btn-subir;
-  animation-duration: 0.9s;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+.btn-conhecer {
   font-size: 1.5em;
   text-align: center;
-  cursor: pointer;
-  border-radius: 10px;
   color: #fff;
+  border: solid 2px #5496FF;
+  border-radius: 10px;
+  padding: 10px 26px;
+  background-color: #5496FF;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 60px;
+  transition: all 0.2s;
+  animation-name: btn-subir;
+  animation-duration: 0.9s;
+}
+
+.btn-conhecer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.267);
+  color: #fff;
+}
+
+.btn-conhecer:active {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.075);
 }
 
 @keyframes btn-subir {
@@ -143,37 +146,12 @@ nav .list-menu a:hover::before {
   }
 }
 
-.btn-conhecer {
-  font-size: 22px;
-  color: #fff;
-  border: solid 2px #5496FF;
-  border-radius: 10px;
-  padding: 10px 26px;
-  background-color: #5496FF;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  margin-top: 120px;
-  transition: all 0.2s;
 
-  animation-name: btn-subir;
-  animation-duration: 0.9s;
-}
-
-.btn-conhecer:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.267);
-  color: #fff;
-}
-
-.btn-conhecer:active {
-  transform: translateY(-2px);
-  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.075);
-}
 
 .titulo-banner {
   text-align: center;
   color: #fff;
   margin-top: 145px;
-  text-transform: capitalize;
 }
 
 /* Serviços */
@@ -185,8 +163,8 @@ nav .list-menu a:hover::before {
 }
 
 .card-servico {
-  width: 300px;
-  height: 300px;
+  min-width: 300px;
+  min-height: 300px;
   box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin: 20px;
@@ -199,6 +177,7 @@ nav .list-menu a:hover::before {
 
 .card-servico div {
   text-align: center;
+  padding: 10px;
 }
 
 .card-img img {
@@ -355,7 +334,7 @@ button.btn-formulario:hover {
   color: #5496FF;
 }
 
-.menu{
+.menu {
   transition: 0.3s ease;
 }
 
@@ -399,5 +378,13 @@ button.btn-formulario:hover {
 
   nav.menu.active {
     left: 0;
+  }
+}
+
+@media(max-width: 1200px) {
+  .card-grupo .col-sm-4 {
+    flex: 100%;
+    max-width: 100%;
+    width: 150px;
   }
 }

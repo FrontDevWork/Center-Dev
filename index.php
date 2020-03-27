@@ -6,11 +6,11 @@
 
             <div class="principal">
                 <h1 class="titulo-banner">
-                    Criação de sites e plantaformas e-commerce
+                    Criação de sites e plataformas e-commerce
                 </h1>
 
                 <div class="buttons">
-                    <button class="btn btn-cadastrar  radius"> Cadastrar</button>
+                    <button class="btn btn-conhecer  radius"> Mais Informações</button>
 
                 </div>
             </div>
@@ -21,88 +21,84 @@
 
 </section>
 
-<div class="container=fluid">
+<div class="container-fluid">
 
     <div class="card-grupo">
         <div class="row">
-            <div class="servico">
 
-                <div class="col-sm-4">
-                    <div class="card-servico">
-                        <div class="card-img">
-                            <img src="img/idea.png">
-                        </div>
-                        <div class="card-content">
+            <div class="col-sm-4">
+                <div class="card-servico">
+                    <div class="card-img">
+                        <img src="img/idea.png">
+                    </div>
+                    <div class="card-content">
 
-                            <h5 class="card-title">Identidade visual</h5>
-                        </div>
+                        <h5 class="card-title">Identidade visual</h5>
+                    </div>
 
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card-servico">
+                    <div class="card-img">
+                        <img src="img/multimedia.png">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="card-title">Marketing digital</h5>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <div class="card-servico">
-                        <div class="card-img">
-                            <img src="img/multimedia.png">
-                        </div>
-                        <div class="card-content">
-                            <h5 class="card-title">Marketing digital</h5>
-                        </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card-servico">
+                    <div class="card-img">
+
+                        <img src="img/code.png">
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card-servico">
-                        <div class="card-img">
+                    <div class="card-content">
 
-                            <img src="img/code.png">
-                        </div>
-                        <div class="card-content">
-
-                            <h5 class="card-title">Desenvolvimento sob medida</h5>
-                        </div>
+                        <h5 class="card-title">Desenvolvimento sob medida</h5>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="servico">
 
-                <div class="col-sm-4">
-                    <div class="card-servico">
-                        <div class="card-img">
+            <div class="col-sm-4">
+                <div class="card-servico">
+                    <div class="card-img">
 
-                            <img src="img/computer.png">
-                        </div>
-                        <div class="card-content">
-
-                            <h5 class="card-title">Design responsivo</h5>
-                        </div>
-
+                        <img src="img/computer.png">
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card-servico">
-                        <div class="card-img">
+                    <div class="card-content">
 
-                            <img src="img/growth.png">
-                        </div>
-                        <div class="card-content">
-
-                            <h5 class="card-title">Relatorios online</h5>
-                        </div>
-
+                        <h5 class="card-title">Design responsivo</h5>
                     </div>
+
                 </div>
-                <div class="col-sm-4">
-                    <div class="card-servico">
-                        <div class="card-img">
+            </div>
+            <div class="col-sm-4">
+                <div class="card-servico">
+                    <div class="card-img">
 
-                            <img src="img/settings.png">
-                        </div>
-                        <div class="card-content">
+                        <img src="img/growth.png">
+                    </div>
+                    <div class="card-content">
 
-                            <h5 class="card-title">Painel administrativo</h5>
-                        </div>
+                        <h5 class="card-title">Relatorios online</h5>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card-servico">
+                    <div class="card-img">
+
+                        <img src="img/settings.png">
+                    </div>
+                    <div class="card-content">
+
+                        <h5 class="card-title">Painel administrativo</h5>
                     </div>
                 </div>
             </div>
