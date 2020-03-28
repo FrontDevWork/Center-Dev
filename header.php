@@ -8,7 +8,7 @@
     <title>Criação de Sites e Soluções sob medida | CenterDev</title>
     <meta name="description"
         content="A CenterDev é uma empresa de criação de sites, marketing digital, lojas virtuais e outras soluções do mercado da tecnologia.">
-        <meta name="author" content="CenterDev">
+    <meta name="author" content="CenterDev">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -31,34 +31,39 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="plugins/fontawesome-free/css/all.css" rel="stylesheet">
     <link href="plugins/fontawesome-free/css/brands.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-
-
-    <section class="menu-nav">
-        <div class="content-header">
-
-            <img src="img/logo-branco.png" alt="Logo" class="img-logo">
-            <div class="nome-logo">
-                <b>FrontDev</b>
+    <header class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img id="logo" src="img/logo-branco.png" alt="CenterDev" class="float-left animated fadeInUp delay-1s">
+                    <div id="menu" class="animated fadeInUp delay-1s">
+                        
+                        <ul class="float-right">
+                            <li id="menu-products"><a href="#">Serviços</a></li>
+                            <li><a href="#">Portfólio</a></li>
+                            <li><a href="#">Fale conosco</a></li>
+                        </ul>
+                    </div>
+                    <div id="btn-toggle-menu">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
             </div>
-            <button class="open-nav btn">
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <nav class="menu">
-                <ul class="list-menu">
-                    <li><a href="#">Portfólio</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-
-            </nav>
-
         </div>
-    </section>
+    </header>
+
+    <?php include 'menu-mobile.php'; ?>

@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <p>© 2020 FrontDev. Todos os direitos reservados.</p>
+                <p>© 2020 CenterDev. Todos os direitos reservados.</p>
             </div>
         </div>
     </div>
