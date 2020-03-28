@@ -178,24 +178,28 @@
 
                 </div>
                 <div class="col-sm-6">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h4><i class="fas fa-phone"></i> Telefones</h4>
-                            <p>Atendimento: (11) 97797-3346</p>
-                            <p>WhatsApp: +55 (11) 97797-3346</p>
-                            <p></p>
-                        </div>
-                        <div class="col-sm-12">
-                            <h4><i class="fas fa-clock"></i> Horário de atendimento</h4>
-                            <p>De segunda à sexta-feira</p>
-                            <p>Das 9h às 18h </p>
-                        </div>
-                        <div class="col-sm-12">
-                            <h4><i class="fas fa-map-marker-alt"></i> Endereço</h4>
-                            <p>Rua Sestílio Melani, 620</p>
-                            <p>São Paulo, São Paulo | CEP 08225-485 </p>
+                    <div id="data-contato">
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h4><i class="fas fa-phone"></i> Telefones</h4>
+                                <p>Atendimento: (11) 97797-3346</p>
+                                <p>WhatsApp: +55 (11) 97797-3346</p>
+                                <p></p>
+                            </div>
+                            <div class="col-sm-12">
+                                <h4><i class="fas fa-clock"></i> Horário de atendimento</h4>
+                                <p>De segunda à sexta-feira</p>
+                                <p>Das 9h às 18h </p>
+                            </div>
+                            <div class="col-sm-12">
+                                <h4><i class="fas fa-map-marker-alt"></i> Endereço</h4>
+                                <p>Rua Sestílio Melani, 620</p>
+                                <p>São Paulo, São Paulo | CEP 08225-485 </p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
             </div>

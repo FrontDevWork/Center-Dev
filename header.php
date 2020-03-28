@@ -46,8 +46,11 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img id="logo" src="img/logo-branco.png" alt="CenterDev" class="float-left animated fadeInUp delay-1s">
-                    <div id="menu" class="animated fadeInUp delay-1s">
+                    <a href=""><img id="logo" src="img/logo-branco.png" alt="CenterDev" class="float-left "></a>
+                    <div id="menu" >
+                        <ul class="float-left">
+                            <li id="menu-title"><a href="">CenterDev</a></li>
+                        </ul>
                         
                         <ul class="float-right">
                             <li id="menu-products"><a href="#">Serviços</a></li>

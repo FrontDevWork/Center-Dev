@@ -19,8 +19,8 @@ ul {
 
 
 header {
+  background: rgba(84, 150, 255,0);
   position: fixed;
-  background: #5496FF;
   z-index: 999;
   width: 100%;
   top: 0;
@@ -53,13 +53,18 @@ padding: 0;
 }
 
 #menu > ul > li > a {
-font-size: 14px;
+  font-size: 14px;
   padding: 22px 12px;
-  line-height: 62px;
+  line-height: 80px;
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
   transition: .4s;
+}
+#menu-title {
+  font-size: 18px;
+  font-weight: 700;
+
 }
 
 #menu > ul > li > a:hover {
@@ -123,7 +128,7 @@ opacity: .8;
   left: 0;
   width: 300px;
   max-width: 100%;
-  background-color: #dddbdb;
+  background-color: #e4e4e4;
   box-shadow: 12px 0px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -393,6 +398,15 @@ button.btn-formulario:hover {
 
 #send {
   margin-top: 0;
+}
+@media(max-width:580px){
+  #send {
+    width: 100%;
+    margin:  30px 0;
+  }
+  #data-contato {
+
+  }
 }
 
 /*footer*/
