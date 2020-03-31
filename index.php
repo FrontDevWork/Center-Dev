@@ -22,7 +22,11 @@
 </section>
 
 <div class="container-fluid">
-
+    <div class="row">
+        <div class="col-sm-12">
+            <h4 class="text-center mb-5">Serviços</h4>
+        </div>
+    </div>
     <div class="card-grupo">
         <div class="row">
 
@@ -61,9 +65,7 @@
                 </div>
             </div>
         </div>
-
         <div class="row">
-
             <div class="col-sm-4">
                 <div class="card-servico">
                     <div class="card-img">
@@ -106,6 +108,36 @@
     </div>
 
 
+</div>
+
+<div class="portfolio">
+    <div class="row">
+        <div class="col-sm-12">
+            <h4 class="text-center m-5">Portfólio</h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card-portfolio">
+                    <div class="texto-portfolio text-center">
+                        <h4>ImobPro</h4>
+                        <a href="action-administradora">Ver Projeto</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card-portfolio">
+                    <div class="texto-portfolio text-center">
+                        <h4>ImobPro</h4>
+                        <a href="action-administradora">Ver Projeto</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <section class="box-contato">
 
@@ -192,11 +224,11 @@
                                 <p>De segunda à sexta-feira</p>
                                 <p>Das 9h às 18h </p>
                             </div>
-                            <div class="col-sm-12">
+                            <!-- <div class="col-sm-12">
                                 <h4><i class="fas fa-map-marker-alt"></i> Endereço</h4>
                                 <p>Rua Sestílio Melani, 620</p>
                                 <p>São Paulo, São Paulo | CEP 08225-485 </p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 

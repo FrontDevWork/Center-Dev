@@ -180,7 +180,7 @@ opacity: .8;
   background-position: center center;
   background-size: cover;
 
-  margin-bottom: 130px;
+  margin-bottom: 70px;
 }
 
 .principal {
@@ -213,6 +213,22 @@ opacity: .8;
 .btn-conhecer:active {
   transform: translateY(-2px);
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.075);
+}
+
+.card-portfolio {
+  height: 350px;
+  background: url('../img/banner.png');
+  background-size: cover !important;
+  background-position: center !important;
+  position: relative;
+}
+.texto-portfolio {
+  background: rgba(0, 0, 0, 0.78);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
 }
 
 @keyframes btn-subir {
