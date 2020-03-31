@@ -111,12 +111,12 @@
 </div>
 
 <div class="portfolio">
-    <div class="row">
-        <div class="col-sm-12">
-            <h4 class="text-center m-5">Portfólio</h4>
-        </div>
-    </div>
     <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4 class="text-center m-5">Portfólio</h4>
+            </div>
+        </div>
         <div class="row">
             <div class="col-sm-6">
                 <div class="card-portfolio">
