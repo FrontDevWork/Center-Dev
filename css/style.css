@@ -217,15 +217,18 @@ opacity: .8;
 
 .card-portfolio {
   height: 350px;
+  margin: 10px 0;
   background: url('../img/banner.png');
   background-size: cover !important;
   background-position: center !important;
   position: relative;
 }
+
 .texto-portfolio {
   background: rgba(0, 0, 0, 0.78);
   color: #fff;
   position: absolute;
+  padding: 15px;
   bottom: 0;
   width: 100%;
 }
@@ -311,6 +314,9 @@ opacity: .8;
 .ajuda-contato {
   text-transform: uppercase;
   padding: 20px 0;
+}
+#data-contato {
+  padding: 10px;
 }
 
 button.btn.btn-contato {
@@ -419,9 +425,7 @@ button.btn-formulario:hover {
     width: 100%;
     margin:  30px 0;
   }
-  #data-contato {
-
-  }
+  
 }
 
 /*footer*/
