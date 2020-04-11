@@ -53,9 +53,9 @@
                         </ul>
                         
                         <ul class="float-right">
-                            <li id="menu-products"><a href="#">Serviços</a></li>
-                            <li><a href="#">Portfólio</a></li>
-                            <li><a href="#">Fale conosco</a></li>
+                            <li id="menu-products"><a href="#servicos">Serviços</a></li>
+                            <li><a href="#portfolio">Portfólio</a></li>
+                            <li><a href="#contato">Fale conosco</a></li>
                         </ul>
                     </div>
                     <div id="btn-toggle-menu">

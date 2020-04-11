@@ -21,7 +21,7 @@
 
 </section>
 
-<div class="container-fluid">
+<div class="container-fluid" id="servicos">
     <div class="row">
         <div class="col-sm-12">
             <h4 class="text-center mb-5">Serviços</h4>
@@ -106,15 +106,40 @@
             </div>
         </div>
     </div>
-
-
 </div>
 
-<div class="portfolio">
+<div class="sobre-nos" id="sobre-nos">
+    <div class="container">
+        <div class="row ">
+            <div class="col-sm-12">
+                <h4 class="text-center m-5">Sobre Nós</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel urna id lacus convallis egestas
+                    vitae a
+                    ex. Fusce vulputate, lorem eu dapibus tempor, lectus est dictum dui, et lobortis leo nisi a massa.
+                    Sed
+                    sodales elementum convallis. Curabitur in laoreet mi, ac tincidunt eros. Aenean vulputate gravida
+                    dolor,
+                    at semper odio mollis vel.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel urna id lacus convallis egestas
+                    vitae a
+                    ex. Fusce vulputate, lorem eu dapibus tempor, lectus est dictum dui, et lobortis leo nisi a massa.
+                    Sed
+                    sodales elementum convallis. Curabitur in laoreet mi, ac tincidunt eros. Aenean vulputate gravida
+                    dolor,
+                    at semper odio mollis vel.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="portfolio" id="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h4 class="text-center mb-5">Portfólio</h4>
+                <h4 class="text-center m-5">Portfólio</h4>
             </div>
         </div>
         <div class="row">
@@ -139,7 +164,7 @@
         </div>
     </div>
 </div>
-<section class="box-contato">
+<section class="box-contato" id="contato">
 
     <div class="container-fluid">
 
