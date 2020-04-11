@@ -3,11 +3,15 @@
 		
 		<div class="row">
 			<div class="col">
-				<p class="title-item-menu">Menu</p>
+			<a href=""><img id="logo" src="img/logo-branco.png" alt="CenterDev" class="float-left "></a>
+				<p class="title-item-menu">CenterDev</p>
 			</div>
 		</div>
-		<button>Serviços</button>
-		<button>Portfólio</button>
-		<button>Fale Conosco</button>
+		<ul>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Portfólio</a></li>
+        <li><a href="#">Fale Conosco</a></li>
+      </ul>
 	</div>
 </div>
+
