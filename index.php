@@ -114,7 +114,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h4 class="text-center m-5">Portfólio</h4>
+                <h4 class="text-center mb-5">Portfólio</h4>
             </div>
         </div>
         <div class="row">
