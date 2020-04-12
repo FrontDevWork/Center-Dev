@@ -302,7 +302,13 @@ transform: scale(1.5);
     max-width: 100%;
     width: 150px;
   }
+}
 
+/*Sobre Nos*/
+
+.sobre-nos {
+  background-image: url(../img/banner.png);
+  color: #fff;
 }
 /* Contato */
   .box-contato {
