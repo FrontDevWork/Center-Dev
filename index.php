@@ -110,27 +110,17 @@
 
 <div class="sobre-nos" id="sobre-nos">
     <div class="container">
-        <div class="row ">
-            <div class="col-sm-12">
-                <h4 class="text-center m-5">Sobre Nós</h4>
-            </div>
-        </div>
         <div class="row">
             <div class="col-sm-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel urna id lacus convallis egestas
-                    vitae a
-                    ex. Fusce vulputate, lorem eu dapibus tempor, lectus est dictum dui, et lobortis leo nisi a massa.
-                    Sed
-                    sodales elementum convallis. Curabitur in laoreet mi, ac tincidunt eros. Aenean vulputate gravida
-                    dolor,
-                    at semper odio mollis vel.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel urna id lacus convallis egestas
-                    vitae a
-                    ex. Fusce vulputate, lorem eu dapibus tempor, lectus est dictum dui, et lobortis leo nisi a massa.
-                    Sed
-                    sodales elementum convallis. Curabitur in laoreet mi, ac tincidunt eros. Aenean vulputate gravida
-                    dolor,
-                    at semper odio mollis vel.</p>
+                <p>A CenterDev é uma agência especializada em encontrar a melhor solução
+                    para o seu negócio seja ela, uma loja virtual completamente gerenciável ou apenas um site
+                    profissional que dê resultados.</p>
+                <p>Nós projetamos, desenvolvemos e gerenciamos sites de alto
+                    impacto que geram leads, vendem produtos e contam histórias, sempre se atentando as tecnologias mais
+                    atuais</p>
+                <p>Com um planejamento estratégico e um equipe coordenada, buscamos entregar aos nosso clientes soluções
+                    que proporcionam economia, competividade e principalmente retorno financeiro</p>
+
             </div>
         </div>
     </div>
@@ -148,7 +138,6 @@
                     <div class="texto-portfolio text-center">
                         <h4>ImobPro</h4>
                         <a href="#">Ver Projeto</a>
-
                     </div>
                 </div>
             </div>

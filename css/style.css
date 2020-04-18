@@ -307,8 +307,20 @@ transform: scale(1.5);
 /*Sobre Nos*/
 
 .sobre-nos {
-  background-image: url(../img/banner.png);
+  background-image: url(../img/sobre-nos.png);
+  background-position: center; /* Center the image */
+  background-size: cover;
+  margin: 50px 0;
+  padding: 100px 200px;
   color: #fff;
+}
+.sobre-nos p {
+  text-align: justify;
+}
+@media(max-width: 950px){
+  .sobre-nos {
+    padding: 100px 20px;
+  }
 }
 /* Contato */
   .box-contato {
