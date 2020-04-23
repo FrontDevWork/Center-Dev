@@ -221,10 +221,17 @@ transform: scale(1.5);
 .card-portfolio {
   height: 350px;
   margin: 10px 0;
-  background: url('../img/banner.png');
   background-size: cover !important;
   background-position: center !important;
   position: relative;
+}
+
+#imgPort1 {
+  background: url('../img/banner.png');
+}
+
+#imgPort2 {
+  background: url('../img/banner.png');
 }
 
 .texto-portfolio {

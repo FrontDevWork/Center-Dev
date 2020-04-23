@@ -134,7 +134,7 @@
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <div class="card-portfolio">
+                <div class="card-portfolio" id="imgPort1">
                     <div class="texto-portfolio text-center">
                         <h4>ImobPro</h4>
                         <a href="#">Ver Projeto</a>
@@ -142,7 +142,7 @@
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="card-portfolio">
+                <div class="card-portfolio" id="imgPort2">
                     <div class="texto-portfolio text-center">
                         <h4>Fotografia Max</h4>
                         <a href="#">Ver Projeto</a>
