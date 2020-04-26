@@ -165,7 +165,7 @@
             <div class="row">
                 <div class="col-sm-6">
 
-                    <form id="formContato">
+                    <form id="formContato" method="post" action="enviar.php">
 
                         <div class="row">
                             <div class="col-sm-6">
@@ -208,8 +208,8 @@
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <div class="textarea-container">
-                                        <label for=""> Como nos conheceu</label>
-                                        <textarea rows="5"></textarea>
+                                        <label for="content"> Sua mensagem</label>
+                                        <textarea rows="5" name="content" id="content"></textarea>
                                     </div>
 
                                 </div>
