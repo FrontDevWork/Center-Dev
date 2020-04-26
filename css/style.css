@@ -230,6 +230,14 @@ transform: scale(1.5);
   position: relative;
 }
 
+#imgPort1 {
+  background: url('../img/banner.png');
+}
+
+#imgPort2 {
+  background: url('../img/banner.png');
+}
+
 .texto-portfolio {
   background: rgba(0, 0, 0, 0.78);
   color: #fff;
