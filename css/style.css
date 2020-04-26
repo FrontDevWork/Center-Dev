@@ -220,8 +220,11 @@ transform: scale(1.5);
 
 .card-portfolio {
   height: 350px;
+  border: solid 2px rgba(0, 0, 0,1);
+  border-radius: 8px;
+  box-shadow: 0 0 10px ;
   margin: 10px 0;
-  background: url('../img/banner.png');
+  background: url('../img/portfolio-1.png');
   background-size: cover !important;
   background-position: center !important;
   position: relative;

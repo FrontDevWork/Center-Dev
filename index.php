@@ -129,19 +129,19 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h4 class="text-center m-5">Portfólio</h4>
+                <h4 class="text-center m-5">Conheca um de nossos projetos</h4>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-8 offset-sm-2">
                 <div class="card-portfolio">
                     <div class="texto-portfolio text-center">
                         <h4>ImobPro</h4>
-                        <a href="#">Ver Projeto</a>
+                        <a href="http://centerdev.com.br/imobpro">Ver Projeto</a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <!-- <div class="col-sm-6">
                 <div class="card-portfolio">
                     <div class="texto-portfolio text-center">
                         <h4>Fotografia Max</h4>
@@ -149,7 +149,7 @@
 
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
