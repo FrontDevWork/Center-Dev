@@ -44,3 +44,19 @@ $(window).scroll(function() {
 		$("header").removeClass('header-scroll');
 	}
 });
+
+$(document).on('click', '.scroll', function(event){
+	var tela = $(window).width();
+	if(tela < 768){
+		event.preventDefault(); 
+		$('html, body').animate({
+		scrollTop: $( $.attr(this, 'href') ).offset().top -70
+		}, 800);
+	} else {
+		event.preventDefault(); 
+		$('html, body').animate({
+		scrollTop: $( $.attr(this, 'href') ).offset().top -100
+		}, 800);
+	}
+	
+});

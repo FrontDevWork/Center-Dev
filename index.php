@@ -10,7 +10,7 @@
                 </h1>
 
                 <div class="buttons">
-                    <button class="btn btn-conhecer  radius"> Mais Informações</button>
+                    <button class="btn btn-conhecer  radius scroll" href="#servicos"> Mais Informações</button>
 
                 </div>
             </div>
@@ -137,7 +137,7 @@
                 <div class="card-portfolio">
                     <div class="texto-portfolio text-center">
                         <h4>ImobPro</h4>
-                        <a href="http://centerdev.com.br/imobpro">Ver Projeto</a>
+                        <a href="http://centerdev.com.br/imobpro" target="_blank">Ver Projeto</a>
                     </div>
                 </div>
             </div>

@@ -35,8 +35,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="plugins/fontawesome-free/css/all.css" rel="stylesheet">
-    <link href="plugins/fontawesome-free/css/brands.css" rel="stylesheet">
+    <link href="plugins/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="plugins/fontawesome/css/brands.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -47,15 +47,16 @@
             <div class="row">
                 <div class="col">
                     <a href=""><img id="logo" src="img/logo-branco.png" alt="CenterDev" class="float-left "></a>
-                    <div id="menu" >
+                    <div id="menu">
                         <ul class="float-left">
                             <li id="menu-title"><a href="">CenterDev</a></li>
                         </ul>
-                        
+
                         <ul class="float-right">
-                            <li id="menu-products"><a href="#servicos">Serviços</a></li>
-                            <li><a href="#portfolio">Portfólio</a></li>
-                            <li><a href="#contato">Fale conosco</a></li>
+                            <li id="menu-products"><a class="scroll" href="#servicos">Serviços</a></li>
+                            <li><a class="scroll" href="#sobre-nos">Sobre nós</a></li>
+                            <li><a class="scroll" href="#portfolio">Portfólio</a></li>
+                            <li><a class="scroll" href="#contato">Fale conosco</a></li>
                         </ul>
                     </div>
                     <div id="btn-toggle-menu">
