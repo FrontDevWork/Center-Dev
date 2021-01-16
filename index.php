@@ -24,7 +24,7 @@
 <div class="container-fluid" id="servicos">
     <div class="row">
         <div class="col-sm-12">
-            <h4 class="text-center mb-5">Serviços</h4>
+            <h4 class="text-center mb-5" id="title_service">Serviços</h4>
         </div>
     </div>
     <div class="card-grupo">
@@ -119,7 +119,7 @@
                     impacto que geram leads, vendem produtos e contam histórias, sempre se atentando as tecnologias mais
                     atuais</p>
                 <p>Com um planejamento estratégico e um equipe coordenada, buscamos entregar aos nosso clientes soluções
-                    que proporcionam economia, competividade e principalmente retorno financeiro</p>
+                    que proporcionam economia, competitividade e principalmente retorno financeiro</p>
 
             </div>
         </div>
@@ -129,7 +129,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h4 class="text-center m-5">Conheca um de nossos projetos</h4>
+                <h4 class="text-center m-5" id="title_portfolio">Conheça um de nossos projetos</h4>
             </div>
         </div>
         <div class="row">
@@ -137,7 +137,7 @@
                 <div class="card-portfolio">
                     <div class="texto-portfolio text-center">
                         <h4>ImobPro</h4>
-                        <a href="http://centerdev.com.br/imobpro" target="_blank">Ver Projeto</a>
+                        <a href="http://centerdev.com.br/imobpro" class="see-project" target="_blank">Ver Projeto</a>
                     </div>
                 </div>
             </div>
@@ -159,7 +159,7 @@
 
         <div class="contato">
             <h2 class="ajuda-contato">Fale com a gente </h2>
-            <h4>Seu contato é muito importante</h4>
+            <h4 class="subtitle-contato">Seu contato é muito importante</h4>
         </div>
         <div class="form-row">
             <div class="row">
@@ -208,7 +208,7 @@
                             <div class="col-sm-12">
                                 <div class="form-group">
                                     <div class="textarea-container">
-                                        <label for="content"> Sua mensagem</label>
+                                        <label for="content" class="textarea"> Sua mensagem</label>
                                         <textarea rows="5" name="content" id="content"></textarea>
                                     </div>
 
@@ -225,18 +225,17 @@
                 </div>
                 <div class="col-sm-6">
                     <div id="data-contato">
-
                         <div class="row">
                             <div class="col-sm-12">
-                                <h4><i class="fas fa-phone"></i> Telefones</h4>
-                                <p>Atendimento: (11) 97797-3346</p>
+                                <h4 class="phone_title"><i class="fas fa-phone"></i> Telefones</h4>
+                                <p class="attendance">Atendimento: (11) 97797-3346</p>
                                 <p>WhatsApp: +55 (11) 97797-3346</p>
                                 <p></p>
                             </div>
                             <div class="col-sm-12">
-                                <h4><i class="fas fa-clock"></i> Horário de atendimento</h4>
-                                <p>De segunda à sexta-feira</p>
-                                <p>Das 9h às 18h </p>
+                                <h4 class="att_hour"><i class="fas fa-clock"></i> Horário de atendimento</h4>
+                                <p class="days">De segunda à sexta-feira</p>
+                                <p class="hour">Das 9h às 18h </p>
                             </div>
                             <!-- <div class="col-sm-12">
                                 <h4><i class="fas fa-map-marker-alt"></i> Endereço</h4>

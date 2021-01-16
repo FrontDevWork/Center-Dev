@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
-                <p>© 2020 CenterDev. Todos os direitos reservados.</p>
+                <p class="right">© 2020 CenterDev. Todos os direitos reservados.</p>
             </div>
         </div>
     </div>
@@ -18,6 +18,7 @@
 </script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/app.js"></script>
+<script src="js/translate.js"></script>
 </body>
 
 </html>

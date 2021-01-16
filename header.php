@@ -42,6 +42,20 @@
 
 <body>
     <header class="header-top">
+        <div id="language">
+        <div id="portuguese" class="topbar-icons">
+                <a href="#">
+                    <img src="img/port.png" alt="Portuguese">
+                    <span>Português</span>
+                </a>
+            </div>
+            <div id="english" class="topbar-icons">
+                <a href="#">
+                    <img src="img/eng.png" alt="English">
+                    <span>English</span>
+                </a>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -52,7 +66,7 @@
                         </ul>
 
                         <ul class="float-right">
-                            <li id="menu-products"><a class="scroll" href="#servicos">Serviços</a></li>
+                            <li><a class="scroll" href="#servicos">Serviços</a></li>
                             <li><a class="scroll" href="#sobre-nos">Sobre nós</a></li>
                             <li><a class="scroll" href="#portfolio">Portfólio</a></li>
                             <li><a class="scroll" href="#contato">Fale conosco</a></li>
@@ -69,4 +83,4 @@
         </div>
     </header>
 
-    <?php include 'menu-mobile.php'; ?>
+    <?php include 'menu-mobile.php';?>

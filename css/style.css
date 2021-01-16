@@ -11,7 +11,7 @@ body {
 header {
   background: rgba(84, 150, 255,0);
   position: fixed;
-  z-index: 999;
+  z-index: 9;
   width: 100%;
   top: 0;
   left: 0;
@@ -28,6 +28,37 @@ header.header-scroll {
 #logo {
 padding: 15px 0;
 width: 50px;
+}
+div#language {
+  display: flex;
+  background: #eee;
+  justify-content: flex-end;
+  width: 100%;
+  height: 20px;
+}
+
+.topbar-icons {
+  height: 100%;
+  text-align: right;
+  padding: 0 20px;
+}
+.topbar-icons a {
+  color: #525252;
+  text-decoration: none;
+  font-size: 12px;
+  display: table;
+}
+.topbar-icons:hover {
+  text-decoration: none;
+  background-color: #ccc;
+}
+.topbar-icons span {
+  padding: 0 8px;
+} 
+@media(max-width: 768px){
+  div#language {
+    justify-content: center;
+  }
 }
 
 #menu > ul {
@@ -156,7 +187,7 @@ transform: scale(1.5);
 
 @media(max-width: 1200px){
   header {
-      height: 56px;
+      height: 74px;
   }
 
   #logo {
@@ -351,7 +382,8 @@ transform: scale(1.5);
   padding: 20px 0;
 }
 #data-contato {
-  padding: 10px;
+  padding-left: 10vw;
+  text-align: justify;
 }
 
 button.btn.btn-contato {
@@ -363,14 +395,13 @@ button.btn.btn-contato {
 }
 
 .form-row {
-  padding: 50px;
+  padding: 100px 0 100px 50px;
 }
 
 .form-row p,
 .form-row h4,
 .form-row h2 {
   color: #fff;
-  text-align: center;
 }
 
 .input-container {
