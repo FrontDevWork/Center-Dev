@@ -17,8 +17,8 @@
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
 </script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="js/app.js?v=1.1"></script>
-<script src="js/translate.js"></script>
+<script src="js/app.js?v=1.2"></script>
+<script src="js/translate.js?v=1.2"></script>
 </body>
 
 </html>
