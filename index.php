@@ -111,7 +111,7 @@
 <div class="sobre-nos" id="sobre-nos">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 text_about" >
                 <p>A CenterDev é uma agência especializada em encontrar a melhor solução
                     para o seu negócio seja ela, uma loja virtual completamente gerenciável ou apenas um site
                     profissional que dê resultados.</p>

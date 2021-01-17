@@ -103,6 +103,9 @@ const setLanguage = (text) => {
     let title = document.getElementsByClassName('titulo-banner');
     title[0].innerHTML = text.title_init;    
     
+    let text_about = document.getElementsByClassName('text_about');
+    text_about[0].innerHTML = text.presentation;    
+    
     let title_sv = document.getElementById('title_service');
     title_sv.innerHTML = text.title_sv;
     
