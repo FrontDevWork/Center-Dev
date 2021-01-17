@@ -12,11 +12,11 @@ const textPt = {
     card_5: "Relatórios online",
     card_6: "Painel administrativo",
     presentation: `
-    A CenterDev é uma agência especializada em encontrar a melhor solução para o seu negócio seja ela, uma loja virtual completamente gerenciável ou apenas um site profissional que dê resultados.
+    <p>A CenterDev é uma agência especializada em encontrar a melhor solução para o seu negócio seja ela, uma loja virtual completamente gerenciável ou apenas um site profissional que dê resultados.</p>
 
-Nós projetamos, desenvolvemos e gerenciamos sites de alto impacto que geram leads, vendem produtos e contam histórias, sempre se atentando as tecnologias mais atuais
+    <p>Nós projetamos, desenvolvemos e gerenciamos sites de alto impacto que geram leads, vendem produtos e contam histórias, sempre se atentando as tecnologias mais atuais</p>
 
-Com um planejamento estratégico e um equipe coordenada, buscamos entregar aos nosso clientes soluções que proporcionam economia, competitividade e principalmente retorno financeiro`,
+    <p>Com um planejamento estratégico e um equipe coordenada, buscamos entregar aos nosso clientes soluções que proporcionam economia, competitividade e principalmente retorno financeiro</p>`,
     portfolio_title: "Conheça um de nossos projetos",
     card_title: "Ver projeto",
     title_contact: "Fale com a gente",
@@ -48,11 +48,11 @@ const textEn = {
     card_5: "Online reports",
     card_6: "Administrative panel",
     presentation: `
-    CenterDev is an agency specialized in finding the best solution for your business, be it a completely manageable virtual store or just a professional website that gives results.
+    <p>CenterDev is an agency specialized in finding the best solution for your business, be it a completely manageable virtual store or just a professional website that gives results.</p>
 
-    We design, develop and manage high impact websites that generate leads, sell products and tell stories, always keeping an eye on the latest technologies
+    <p>We design, develop and manage high impact websites that generate leads, sell products and tell stories, always keeping an eye on the latest technologies</p>
 
-    With a strategic planning and a coordinated team, we seek to deliver to our customers solutions that provide savings, competitiveness and mainly financial return`,
+    <p>With a strategic planning and a coordinated team, we seek to deliver to our customers solutions that provide savings, competitiveness and mainly financial return</p>`,
     portfolio_title: "Meet one of our projects",
     card_title: "View project",
     title_contact: "Talk to us",
