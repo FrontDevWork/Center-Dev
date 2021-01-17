@@ -36,7 +36,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="plugins/fontawesome/css/all.min.css" rel="stylesheet">
     <link href="plugins/fontawesome/css/brands.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1.1">
 
 </head>
 
